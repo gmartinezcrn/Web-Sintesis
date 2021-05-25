@@ -45,12 +45,12 @@ h2{
 }
 
 #Ingredients{
-  width: 400px;
+  width: 30%;
   height: 600px;
   position: absolute;
   background-color: ;
   top:200px;
-  left:150px;
+  left:90px;
 
 }
 #ingredients p{
@@ -66,14 +66,15 @@ h3{
 }
 
 #recepta p{
-	margin-left: 0 auto;
+	margin-left: 0;
 	font-size: 20px;
   font-family: monospace;
 	text-align: justify;
+  padding: 5%;
 }
 
 #recepta{
-  width: 600px;
+  width: 30%;
   height: 600px;
   position: absolute;
   background-color: ;
@@ -83,7 +84,7 @@ h3{
 }
 
 img{
-  width: 550px;
+  width: 30%;
   height:700px;
 	position: inherit;
 }
