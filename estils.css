@@ -120,3 +120,132 @@ li{
   font-size: 30px;
   font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
 }
+
+@media only screen and (max-width: 600px){
+  body{
+    background-color: cyan;
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(-180deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  	background-size: 400% 400%;
+  	-webkit-animation: gradient 15s ease infinite;
+  	        animation: gradient 15s ease infinite;
+  }
+
+  @-webkit-keyframes gradient {
+  	0% {
+  		background-position: 0% 50%;
+  	}
+  	50% {
+  		background-position: 100% 50%;
+  	}
+  	100% {
+  		background-position: 0% 50%;
+  	}
+  }
+
+  @keyframes gradient {
+  	0% {
+  		background-position: 0% 50%;
+  	}
+  	50% {
+  		background-position: 100% 50%;
+  	}
+  	100% {
+  		background-position: 0% 50%;
+  	}
+  }
+
+  #capçalera{
+   width: 400%;
+   height: 60%;
+   top: 0%;
+   background-color: black;
+   position: absolute;
+   background-image: url();
+   background-position: 25px;
+  }
+
+  .logo {
+    width: 200px;
+    height: 300px;
+    margin-left: 100px;
+    margin-top: 80px;
+  }
+
+  #capçalera h1{
+    color: white;
+    text-align: center;
+    font-size: 130px;
+    padding: 0%;
+    margin-top: -350px;
+  }
+
+  #capçalera h3{
+    color: #b10015;
+    text-align: center;
+    font-size: 75px;
+    padding: 0%;
+    margin-right: 20px;
+    margin-top: -110px;
+    margin-bottom: 20px;
+  }
+
+  .insta {
+    width: 150px;
+    height: 150px;
+    margin-left: 1350px;
+    margin-top: -200px;
+  }
+
+  .cuadrados{
+    width: 875px;
+    height: 1200px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 2px 2px black;
+    overflow: hidden;
+    margin-top: 450px;
+    margin-bottom: -300px;
+    margin-left: 370px;
+    text-align: center;
+    display: inline-block;
+  }
+
+  .cuadrados:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px black;
+  }
+
+  .cuadrados img{
+    width: 800px;
+    height: 1000px;
+    margin: 0;
+    margin-top: 10px;
+  }
+
+  .cuadrados h4{
+    font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+    font-size: 60px;
+  }
+
+  #apple{
+    margin-left: 370px;
+  }
+
+  .footer{
+   width: 400%;
+   height: 25%;
+   background-color: black;
+   position: absolute;
+   background-position: 25px;
+   margin-top: 350px;
+  }
+
+  .footer a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+  }
+}
