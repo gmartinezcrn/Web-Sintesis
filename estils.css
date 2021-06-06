@@ -37,7 +37,24 @@ body{
   text-align: center;
   font-size: 50px;
   padding: 0%;
-  margin: 0;
+  margin-top: -70px;
+}
+
+#capçalera h3{
+  color: #b10015;
+  text-align: right;
+  font-size: 30px;
+  padding: 0%;
+  margin-right: 20px;
+  margin-top: -45px;
+  margin-bottom: 20px;
+}
+
+.logo {
+  width: 50px;
+  height: 100px;
+  margin-left: 100px;
+  margin-top: 15px;
 }
 
 #capçalera{
@@ -54,6 +71,12 @@ body{
   font-size: 25px;
   text-decoration: none;
   color: white;
+}
+
+.insta {
+  width: 40px;
+  height: 40px;
+  margin-left: 1410px;
 }
 
 ul{
