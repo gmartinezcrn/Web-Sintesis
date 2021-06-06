@@ -90,3 +90,58 @@ body{
 .right{
   margin-left: -300px;
 }
+
+@media only screen and (max-width: 600px){
+  .cuadrados img{
+    width: 80px;
+    height: 150px;
+    margin: 0;
+    margin-top: 10px;
+    padding-left: 40%;
+    margin-top: 40px;
+  }
+
+  .cuadrados p{
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 4%;
+    font-size: 15px;
+    font-family: monospace;
+    text-align: inherit;
+  }
+
+  .imagenes h3{
+    margin-left: 10px;
+    font-family: monospace;
+    font-size: 23px;
+    margin-bottom: -50px;
+  }
+
+  .imagenes h2{
+    margin-left: 15px;
+    font-family: monospace;
+    font-size: 23px;
+    margin-bottom: 20px;
+  }
+
+  .columna {
+    float: left;
+    width: 70%;
+  }
+
+  .columna img{
+      width: 85%;
+      height: 75%;
+      margin-top: 30px;
+
+  }
+
+  .left {
+    margin-left: 10%;
+  }
+
+  .right{
+    margin-left: -5%;
+  }
+
+}
