@@ -1,0 +1,193 @@
+body{
+  background-color: cyan;
+  padding: 0;
+  margin: 0;
+  background: linear-gradient(-180deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  -webkit-animation: gradient 15s ease infinite;
+          animation: gradient 15s ease infinite;
+}
+
+@-webkit-keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+h1{
+  text-align: center;
+  font-size: 80px;
+  font-style: italic;
+	margin-top: 30px;
+}
+
+h2{
+  font-size: 50px;
+  text-align: left;
+}
+
+#Ingredients{
+  width: 30%;
+  height: 600px;
+  position: absolute;
+  background-color: ;
+  top:200px;
+  left:90px;
+}
+
+#ingredients p{
+  text-align: left;
+  font-size: 20px;
+  font-family: monospace;
+}
+
+
+h3{
+  text-align: center;
+  font-size: 50px;
+}
+
+#recepta p{
+	margin-left: 0;
+	font-size: 20px;
+  font-family: monospace;
+	text-align: justify;
+  padding: 5%;
+}
+
+#recepta{
+  width: 30%;
+  height: 600px;
+  position: absolute;
+  background-color: ;
+  top:200px;
+  left:1250px;
+	font-size: 50px;
+}
+
+img{
+  margin-left: 630px;
+  width: 30%;
+  height: 700px;
+	position: inherit;
+}
+
+@media only screen and (max-width: 1550px){
+  body{
+    background-color: cyan;
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(-180deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 900% 900%;
+    -webkit-animation: gradient 15s ease infinite;
+            animation: gradient 15s ease infinite;
+  }
+
+  @-webkit-keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  h1{
+    text-align: center;
+    font-size: 120px;
+    font-style: italic;
+  	margin-top: 200px;
+    margin-left: 170px;
+    width: 100%;
+  }
+
+  h2{
+    font-size: 90px;
+    text-align: left;
+    margin-top: 1500px;
+  }
+
+  h3{
+    text-align: center;
+    font-size: 90px;
+    margin-top: 800px;
+  }
+
+  #Ingredients{
+    width: 30%;
+    height: 600px;
+    position: absolute;
+    background-color: ;
+    top:200px;
+    left: 280px;
+  }
+
+  #ingredients p{
+    text-align: left;
+    font-size: 50px;
+    font-family: monospace;
+    margin-top: -1400px;
+    width: 300%;
+  }
+
+  #recepta{
+    width: 80%;
+    height: 600px;
+    position: absolute;
+    background-color: ;
+    top:2000px;
+    left:100px;
+  	font-size: 50px;
+  }
+
+  #recepta p{
+  	margin-left: 170;
+  	font-size: 50px;
+    font-family: monospace;
+  	text-align: justify;
+    padding: 5%;
+    margin-top: -650px;
+    width: 100%;
+  }
+
+  img{
+    margin-left: 0px;
+    width: 80%;
+    height: 1000px;
+  	position: inherit;
+  }
+
+}
