@@ -88,3 +88,11 @@ img{
   height:700px;
 	position: inherit;
 }
+
+@media only screen and (max-width: 600px){
+  h1{
+    font-size: 120px;
+    font-style: italic;
+  	margin-top: 100px;
+    margin-left: 200px;
+  }
